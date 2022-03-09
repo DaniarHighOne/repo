@@ -1,25 +1,24 @@
 #guessing number game
-# import random
+import random
 
-# def guessing_game():
+def guessing_game():
 
-#     answer = random.randint(0,100)
-
-
-# while True:
-#     user_guess = int(input())
-#     if user_guess == answer:
-#         print('bingo')
-#         break
-#     if user_guess < answer:
-#         print('too low')
-#     else:
-#         print("too high")
-
-# guessing_game()
+answer = random.randint(0,100)
 
 
-# mysum solution
+while True:
+    user_guess = int(input())
+    if user_guess == answer:
+        print('bingo')
+        break
+    if user_guess < answer:
+         print('too low')
+    else:
+         print("too high")
+
+guessing_game()
+
+#mysum solution
 
 
 def mysum(*numbers):
